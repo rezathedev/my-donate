@@ -88,9 +88,69 @@ border: 0;
 /* Our donation plan section */
 .our-donate-plan {
     text-align: center;
-    margin-top: 70px;
     padding: 0 70px;
+    margin: 0 100px;
+    margin-top: 70px;
 }
 .donation-plans {
     display: flex;
+    text-align: left;
+    
+}
+
+.do-plan-title {
+    margin-bottom: 16px;
+}
+.plan-1 {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 145px 23px 54px 23px;
+}
+.plan-2 {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 145px 23px 54px 23px;
+}
+
+.plan-3{
+    background: rgba(255,255,102, 0.1);
+    border-radius: 5px;
+    padding: 145px 23px 54px 23px;
+    
+}
+
+/* Stories section */
+.stories {
+    text-align: center;
+    padding: 0 70px;
+    margin: 0 100px;
+    margin-top: 70px;
+}
+.story1 {
+    display: flex;
+    gap: 90px;
+}
+.story2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+/* get update section */
+.get-updates {
+    text-align: center;
+    padding: 0 70px;
+    margin: 0 100px;
+    margin-top: 70px;
+   
+}
+.subscribe {
+    background: #FFF4D6;
+    margin: 50px 200px;
+    padding: 70px 150px;
+}
+.input-class {
+    width: 275px;
+    height: 48px;
 }
