@@ -3,17 +3,29 @@
     margin: 0 auto;
 }
 header {
-    background-image: url('/images/donation4.jpg');
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('/images/donation13.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1440px;
+    width: auto;
     height: 669px;
     text-align: center;
-    background: rgba(18, 18, 18, 0) 100%);
+    
+    
+    
+    
+    
 }
 
 .intro-text {
-    padding: 175px 307px;
+    padding : 175px 307px;
     color: #FFFFFF;
 
+}
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+}
+.header-description {
+    font-weight: 400;
+    font-size: 18px;
 }
