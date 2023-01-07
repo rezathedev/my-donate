@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 header {
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('./images/donation13.jpg');
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('../images/donation13.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
