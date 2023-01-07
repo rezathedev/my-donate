@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 header {
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('/images/donation13.jpg');
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('./images/donation13.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
@@ -153,4 +153,25 @@ border: 0;
 .input-class {
     width: 275px;
     height: 48px;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+.footer-title {
+    color: #FF5959;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
 }
